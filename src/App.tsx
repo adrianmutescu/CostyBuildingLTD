@@ -3,6 +3,7 @@ import { Phone, Mail, ArrowRight, Home, Building2, Construction, Hammer, CheckCi
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ProjectDetail from './ProjectDetail';
 import ScrollToTop from './ScrollToTop';
+import logo from "../Assets/logo/costylogo.png"
 
 // Import images from each folder
 const imagesOne = import.meta.glob('../Assets/one/*.jpeg', { eager: true }) as Record<string, { default: string }>;
@@ -206,7 +207,7 @@ function App() {
     <div className="flex items-center justify-between">
       {/* Logo + Company Name */}
       <div className="flex items-center space-x-3">
-        <img src="../Assets/logo/costylogo.png" alt="Costy Building LTD Logo" className="h-20 w-25" />
+        <img src={logo} alt="Costy Building LTD Logo" className="h-20 w-25" />
         <span className="text-2xl font-bold text-gray-800">Costy Building LTD</span>
       </div>
 
