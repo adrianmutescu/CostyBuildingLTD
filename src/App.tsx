@@ -206,7 +206,7 @@ function App() {
     <div className="flex items-center justify-between">
       {/* Logo + Company Name */}
       <div className="flex items-center space-x-3">
-        <img src="./Assets/logo/costylogo.png" alt="Costy Building LTD Logo" className="h-20 w-25" />
+        <img src="../Assets/logo/costylogo.png" alt="Costy Building LTD Logo" className="h-20 w-25" />
         <span className="text-2xl font-bold text-gray-800">Costy Building LTD</span>
       </div>
 
